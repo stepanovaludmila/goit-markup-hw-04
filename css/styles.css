@@ -400,8 +400,8 @@ padding: 32px 0;
   border: 1px solid var(--color-light-slate);
   border-radius: 4px;
 }
-.customer-item:hover,
-.customer-item:focus {
+.customer-link:hover,
+.customer-link:focus {
   border-color: var(--color-interactive-hover);
   color: var(--color-interactive-hover);
 }
