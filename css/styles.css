@@ -288,6 +288,9 @@ img {
 -------alternative-------- */
 
 .strengths-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 112px;
   margin: 0 0 8px;
   padding-top: 24px;
