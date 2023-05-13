@@ -206,14 +206,12 @@ img {
   padding: 188px 0;
   margin-left: auto;
   margin-right: auto;
-}
-.image-hero {
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg) ;
-  max-width:1140px;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
+
 
 .title-hero {
   font-weight: 700;
@@ -423,9 +421,11 @@ padding: 32px 0;
 .footer-container-flex {
   display: flex;
   align-items: baseline;
-  gap: 120px;
+ /* gap: 120px;*/
 }
-
+.margin-div-footer {
+  margin-right: 120px;
+}
 .footer-logo {
    color: var(--color-interactive-normal);
    font-family: 'Raleway', sans-serif;
