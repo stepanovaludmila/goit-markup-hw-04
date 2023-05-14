@@ -257,33 +257,6 @@ img {
 
 }
 
-/* alternative
-.strength-list-item::before {
-  display: block;
-  content: "";
-  height: 112px;
-  background-color: var(--color-cloud);
-  background-size: auto 64px;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 4px;
-  margin: 0 0 8px;
-  
-}
-.icon-strategy:before {
-  background-image: url(../images/antenna.svg);
-}
-.icon-punctuality:before {
-  background-image: url(../images/clock.svg);
-}
-.icon-diligence:before {
-  background-image: url(../images/diagram.svg);
-}
-.icon-tech:before {
-  background-image: url(../images/astronaut.svg);
-}
-
--------alternative-------- */
 
 .strengths-img {
   display: flex;
